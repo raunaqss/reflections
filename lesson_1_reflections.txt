@@ -1,0 +1,76 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Viewing a diff between two versions of a file highlighted all the differences between the two versions of the file.
+    Viewing all the differences, helped me spot the typo that was causing the bug in the newest version of the file.
+    Lines that don't exist in the new file, begin with a '-' sign.
+    Subsequently, lines that are added to the new version of the file begin with a '+' sign.
+    This automated difference locator would be of tremendous help when the files consist of thousands of lines of code.
+    God bless the makers of this handy little function.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Having easy access to entire history of a file will help me in many ways:
+    	1. Eliminate the need to spend time saving old versions of files and organizing them.
+    	2. Eliminate the need to manully copy only the desired parts of the previous versions and paste them to the current version.
+    	3. Make it a lot easier to restore to previous bug free versions of any program.
+    	4. Easy file comparisons.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros of manually choosing when to create a commit:
+    	1. Versions committed are always meaningful and would compile and run.
+    	2. Commits that serve as a checkpoint for one logical change will prove to be far more useful comparitively.
+    Cons of manually choosing when to create a commit:
+    	1. Human forgetfulness can get in the way of having a useful version history.
+    	2. Judging the right time to commit may be tedious at first.
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    There are obviously many reasons for this. They go as follows:
+    	1. Git is a dedicated version control system, mostly intended to be used by programmers.
+    	2. Coding projects almost always have multiple files with code, so programmers need to track them together.
+    	3. Tracking multiple files together is mostly useful only for programmers.
+    	4. Google drive is not a dedicated version control system for programmers.
+    	5. Google drive is a collaborative cloud rich text editor that happens to save versions of the files for 
+    	   the convenience of its users.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log
+    	This command shows us the timeline of the repository we're working on.
+    	All commits are listed vertically, sorted by their commit time.
+    	We're givne the following information for each commit on the log timeline:
+    		Commit ID - this commit ID resembles a hash string
+    		Date - when the commit was made
+    		Author - who made the commit
+    		Commit Message - the message supplied by the author for the corresponding commit
+    	We need to scroll down to see all the commits using the down arroy key.
+    	To resume working on the command line, we need to quit the log by pressing q.
+
+    git diff
+    	This command shows the differences between the two commits mentioned as arguments.
+    	It has a format similar to Unix's diff -u command.
+    	Lines added are prefixed by a + sign, and lines removed are prefixed by a - sign.
+
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Using version control will make me more confident to make changes that could break something.
+    This is because:
+    	It's easier to checkout to previous bug-less versions of the file.
+    	It's quite easy to view the difference between the two versions of the file and converging down
+    	to the piece of code that must've caused the bug.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to use Git for all possible programming projects that I will work on in the future.
+    I really wanted to use it even while editing my .bash_profile file for customizing the colors on my Mac Shell.
+    I would like to get into the habit of using Git by default for all my projects hence forth.
