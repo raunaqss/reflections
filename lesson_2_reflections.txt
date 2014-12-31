@@ -6,9 +6,12 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+	The working directory is a single checkout of one version of the project. It preserves modifications
+	made to the file (that's what I observed).
+	The repository (which is the git directory) is where git stores the object database and metadata
+	for the project. The staging area stores information about what will go into the next commit.
 	Files added to the staging area are included in commits.
 	So the staging area offers us an easy way to decide what files we should add in one commit.
-	I don't think I can describe the difference between the repository and the staging area.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
