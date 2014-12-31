@@ -1,15 +1,15 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-	Git creates a hidden directory named .git, where it stores metadata to track the history of the repository
-	since it was initialized. We need to do it to a git repository of an existing directory.
+	Git creates a hidden directory named .git, where it stores metadata to track the history of the repository since it
+	was initialized. We need to do it to a git repository of an existing directory.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-	The working directory is a single checkout of one version of the project. It preserves modifications
-	made to the file (that's what I observed).
-	The repository (which is the git directory) is where git stores the object database and metadata
-	for the project. The staging area stores information about what will go into the next commit.
+	The working directory is a single checkout of one version of the project. It preserves modifications made to the
+	file (that's what I observed).
+	The repository (which is the git directory) is where git stores the object database and metadata for the project.
+	The staging area stores information about what will go into the next commit.
 	Files added to the staging area are included in commits.
 	So the staging area offers us an easy way to decide what files we should add in one commit.
 
@@ -22,6 +22,12 @@ change?
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+	Some situations when branches would be helpful in keeping our history organized:
+		1. When we want to experiment with our project and test it with a restricted set of users.
+		2. Create a new project that is a derivative of a version of our main project.
+	Branches help doing this but allowing us to grow our code in different directions without affecting our main
+	project.
 
 How do the diagrams help you visualize the branch structure?
 
