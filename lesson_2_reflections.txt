@@ -37,5 +37,11 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	Merging two branches together add newer lines added to the branches compared to the commit where the branches
+	separate. It also deletes the lines that are absent in either of the new branches from the commit of diversion. We
+	represent it the way we do because git does merge the two branches and updates the label of the currently checked
+	out branch to the merged branch, and the merged branch's log has previous commits from both the formerly separate
+	branches.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
