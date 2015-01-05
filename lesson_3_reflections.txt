@@ -1,7 +1,8 @@
-When would you want to use a remote repository rather than keeping all your work
-local?
+When would you want to use a remote repository rather than keeping all your
+work local?
 
-    I would want to use a remote repository rather than keeping all my work local in the following circumstances:
+    I would want to use a remote repository rather than keeping all my work
+    local in the following circumstances:
         1. When I'm collaborating with others on the project.
         2. When I want to publish the work for others to read/modify/copy.
         3. When I want to edit the repository from different machines.
@@ -9,33 +10,47 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    I might want to always pull changes manually rather than having Git automatically stay up-to-date with my repository to make sure:
+    I might want to always pull changes manually rather than having Git
+    automatically stay up-to-date with my repository to make sure:
     	1. That I pull only when the commits made can be compiled and run.
     	2. So that I can pull commits in different branches if I want.
-    	3. I don't have unwanted changes made to my project (from commits made by others)
+    	3. I don't have unwanted changes made to my project (from commits made
+        by others).
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
     Fork
-    	Copy a repository to your Github profile (clone remains on github's servers). The forked repo links back to the original repository and the original repository's fork score increases.
+    	Copy a repository to your Github profile (clone remains on github's
+        servers). The forked repo links back to the original repository and the
+        original repository's fork score increases.
     Clone
-    	Copy a repository on your local machine. Clones can be made from remotes or local repos.
+    	Copy a repository on your local machine. Clones can be made from 
+        remotes or local repos.
     Branches
-    	A branch is when you give a new label to certain commits. You can then grow the branch into a different version of your project without affecting the master branch and keeping these commits reachable.
+    	A branch is when you give a new label to certain commits. You can then
+        grow the branch into a different version of your project without 
+        affecting the master branch and keeping these commits reachable.
 
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    The benefits of having a copy of the last known state of a remote stored
+    locally:
+        1. We're up to date with the remote, and so we won't make redundant
+        changes.
+        2. We can avoid making conflicting changes.
+        3. We can merge out-of-sync remotes.
+        4. We're up to date with the collaborative project we're working on.
+
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
     Fill in your answer here
 
-When would you want to make changes in a separate branch rather than directly in
-master?  What benefits does each approach have?
+When would you want to make changes in a separate branch rather than directly
+in master?  What benefits does each approach have?
 
     Fill in your answer here
